@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    color: #DC3545;
+}
+
+.btn-primary {
+    background-color: #DC3545;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #C82333;
+}
+
+.table th, .table td {
+    border: 1px solid #DC3545;
+}
+
+.table thead th {
+    background-color: #DC3545;
+    color: #fff;
+}
+
+.form-control {
+    border: 1px solid #DC3545;
+}
+
+.btn-warning {
+    background-color: #FFC107;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #E0A800;
+}
+
+.btn-danger {
+    background-color: #DC3545;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #C82333;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+

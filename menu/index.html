@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Correio Eletrônico Online (CEO)</title>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="mb-4">Correio Eletrônico Online (CEO)</h1>
+
+    <!-- Formulário para enviar mensagem -->
+    <form id="sendMessageForm">
+      <div class="form-group">
+        <label for="assunto">Assunto:</label>
+        <input type="text" class="form-control" id="assunto" name="assunto" required>
+      </div>
+      <div class="form-group">
+        <label for="descricao">Descrição:</label>
+        <textarea class="form-control" id="descricao" name="descricao" rows="3" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="destinatario">Destinatário:</label>
+        <input type="text" class="form-control" id="destinatario" name="destinatario" required>
+      </div>
+      <div class="form-group">
+        <label for="remetente">Remetente:</label>
+        <input type="text" class="form-control" id="remetente" name="remetente" required>
+      </div>
+      <button type="button" class="btn btn-primary" onclick="enviarMensagem()">Enviar</button>
+    </form>
+
+    <!-- Lista de mensagens -->
+    <div class="mt-5">
+      <h2>Mensagens</h2>
+      <ul id="messageList" class="list-group"></ul>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
